@@ -3,11 +3,14 @@ package com.employee;
 import java.util.Scanner;
 
 /**
- * UC4 - Calculating Wages
+ * UC5 - Calculate Wages till
  *
  * Requirements:
-     *   - for a Month
-     *   - Assume 20 Working Day per Month
+     *   - a condition of total
+     *   - working hours or
+     *   - days is reached for
+     *   - a month
+     *   - Assume 100 hours and 20 days
  *
  * @author  VignejanBridgeLabz
  * @version 1.0
@@ -17,7 +20,7 @@ public class EmployeeMain {
     public static void main(String[] args) {
         System.out.println("Welcome to Employee");
         
-        System.out.println("\n=== UC4: Calculating Wages ===");
+        System.out.println("\n=== UC5: Calculate Wages till ===");
         final int WAGE_PER_HOUR   = 20;
         final int FULL_DAY_HOURS  = 8;
         final int PART_TIME_HOURS = 4;
